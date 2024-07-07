@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"d8XZh":[function(require,module,exports) {
+})({"gnPlH":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "d113fd8ce37f48ea";
+module.bundle.HMR_BUNDLE_ID = "0269ec709d8eccbf";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -556,7 +556,7 @@ function hmrAccept(bundle, id) {
     });
 }
 
-},{}],"aenu9":[function(require,module,exports) {
+},{}],"Xytm3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _multiStepForm = require("./multiStepForm");
 var _multiStepFormDefault = parcelHelpers.interopDefault(_multiStepForm);
@@ -568,8 +568,7 @@ var _summarySection = require("./summarySection");
 var _summarySectionDefault = parcelHelpers.interopDefault(_summarySection);
 console.log("Hello, valle!");
 (0, _googleMapsAutocompleteDefault.default)();
-//initializeLocalStorage();
-(0, _summarySectionDefault.default)();
+(0, _summarySectionDefault.default)(); //initializeLocalStorage();
 
 },{"./multiStepForm":"gUt2f","./googleMapsAutocomplete":"jrVVI","./initializeLocalStorage":"it2ea","./summarySection":"e3QNd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gUt2f":[function(require,module,exports) {
 // multiStepForm.js
@@ -924,6 +923,6 @@ function initializeSummarySection() {
 }
 exports.default = initializeSummarySection;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["d8XZh","aenu9"], "aenu9", "parcelRequire028f")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["gnPlH","Xytm3"], "Xytm3", "parcelRequire028f")
 
-//# sourceMappingURL=index.e37f48ea.js.map
+//# sourceMappingURL=cleaningProposal.9d8eccbf.js.map

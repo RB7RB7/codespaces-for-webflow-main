@@ -1,11 +1,11 @@
 {
-  "name": "codespaces-for-weblfow",
+  "name": "codespaces-for-webflow",
   "version": "0.0.0",
   "description": "Minimalistic template repository for building rich native JavaScript / jQuery applications for Webflow",
   "default": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir ./dist --no-source-maps"
+    "start": "parcel src/index.html src/cleaningProposal.html",
+    "build": "parcel build src/index.html src/cleaningProposal.html --dist-dir ./dist --no-source-maps"
   },
   "author": "Leon B. Barth",
   "license": "MIT",

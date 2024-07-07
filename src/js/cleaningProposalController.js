@@ -6,5 +6,7 @@ import summarySection from './summarySection'
 console.log('Hello, valle!');
 
 loadGoogleMaps();
-//initializeLocalStorage();
 summarySection();
+
+
+//initializeLocalStorage();
